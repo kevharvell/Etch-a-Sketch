@@ -1,13 +1,11 @@
 body {
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    min-width: 650px;
 }
 
 .etched {
     background-color: black;
-}
-
-.pixel {
-    
 }
 
 .row {
@@ -15,17 +13,26 @@ body {
     justify-content: center;
 }
 
-
+#clearBtn {
+    display: block;
+    margin: auto;
+}
 
 #container {
     background-color: #EFEFEF;
     border: 40px solid #EE0000;
-    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 10px 10px #888888;
     margin: auto;
-    width: 600px;
-    height: 600px;
+    width: 680px;
+    height: 680px;
 }
 
 #settings {
     margin: 10px 0px;
+}
+
+#sideLength {
+    display: inline-block;
+    margin-bottom: 10px;
 }
